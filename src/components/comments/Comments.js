@@ -18,12 +18,7 @@ const Comments = () => {
     setIsAddingComment(true);
   };
 
-  const {
-    sendRequest,
-    status,
-    data: loadedComments,
-    error,
-  } = useHttp(getAllComments);
+  const { sendRequest, status, data: loadedComments } = useHttp(getAllComments);
 
   useEffect(
     (params) => {
