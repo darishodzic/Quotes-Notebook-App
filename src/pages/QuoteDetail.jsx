@@ -9,7 +9,6 @@ import { getSingleQuote } from "../lib/api";
 const QuoteDetail = () => {
   const match = useRouteMatch();
   const params = useParams();
-
   const { quoteId } = params;
 
   const {
