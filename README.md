@@ -1,5 +1,5 @@
 
-https://quotes-notebook-app.netlify.app/quotes
+https://quotes-notebook-app.netlify.app/
 
 
 
